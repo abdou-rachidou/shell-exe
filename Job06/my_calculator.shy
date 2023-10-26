@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Addition, soustraction, multiplication ou division
+
+ if [ $1 = "+" ] | [ $1 = "-" ] | [ $1 = "*" ]  [ $1 = "/" ]
+ then resultat=$(($1 + $2))
+ echo "Résultat de l'opération : $resultat"
+
+fi
